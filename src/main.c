@@ -364,7 +364,7 @@ int main ()
 				verMoveTimer = 0.0f;
 			}
 
-			if (IsKeyPressed(KEY_UP))
+			if (IsKeyPressed(KEY_UP) || IsKeyPressed(KEY_X))
 			{
 				RotateMino(&currentMino, blocks, 1);
 			}
